@@ -9,6 +9,7 @@ public class ManipolazioneStringhe {
 
         System.out.println("la stinga è lunga: " + lunghezza(stringa));
         System.out.println("La stringa minuscola è: " + minuscolo(stringa));
+        System.out.println("La stringa maiuscola è: " + maiuscolo(stringa));
 
         scanner.close();
     }
@@ -19,6 +20,10 @@ public class ManipolazioneStringhe {
 
     public static String minuscolo ( String parametro1)  {
         return parametro1.toLowerCase();
+    }
+
+    public static String maiuscolo ( String parametro1)  {
+        return parametro1.toUpperCase();
     }
 
 }
