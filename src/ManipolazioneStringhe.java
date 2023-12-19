@@ -8,12 +8,17 @@ public class ManipolazioneStringhe {
         String stringa = scanner.nextLine();
 
         System.out.println("la stinga è lunga: " + lunghezza(stringa));
+        System.out.println("La stringa minuscola è: " + minuscolo(stringa));
 
         scanner.close();
     }
 
     public static int lunghezza(String parametro1) {
         return parametro1.length();
+    }
+
+    public static String minuscolo ( String parametro1)  {
+        return parametro1.toLowerCase();
     }
 
 }
